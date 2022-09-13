@@ -1,31 +1,36 @@
 /* * * * * BASE STYLES * * * * */
 html {
-    width: 1200px;
+    font-size: 16px;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
     color: #2b2b2b;
-}
+    text-align: left;
+  }
 
 /* * * * * GRID * * * * */
 
 .full-width {
-    
-    margin: 0 auto;
-    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .half-width {
+    display: flex;
     
-    width: 600px;
     float: left;
 }
 
 .third-width {
 
-    width: 350px;
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     
 }
 
@@ -42,13 +47,16 @@ h1{
     font-size: 30px;
     color: whitesmoke;
     margin: 80px 80px;
-    text-transform: capitalize;
-    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 300;
     
 }
 
 nav{
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: row wrap;
     padding: 75px 25px;
     
 }
@@ -69,7 +77,8 @@ nav ul li a{
 header h2{
     font-size: 55px;
     
-    float: left;
+    display: flex;
+    justify-content: left;
     padding: 15px;
     width: 100%;
     clear: both;
@@ -77,6 +86,82 @@ header h2{
     text-transform: lowercase;
     font-weight: lighter;
 }
+
+ .code-skills {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.code-skills article {
+    width: 30%;
+    padding: 60px 0 30px 0;
+  }
+  article {
+      display: flex;
+      justify-content: center;
+  }
+article i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   }
+   
+   footer p {
+     margin: 0;
+   }
+   
+   footer .content-wrapper {
+   width: 55%;
+   margin: 50px 0;
+   
+   }
+   
+   
+   footer .contact{
+     margin-bottom: 50px;
+   }
+   
+   
+   footer .social-icons {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   
+   footer .social-icons p {
+     background-color: #8caac1;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   
+   footer .social-icons p a i {
+     font-size: 1.3125em;
+   }
+   
+   footer .copyright {
+     width: 100%;
+     margin: 20px 0;
+   
+   }
+
 /* * * * * ABOUT * * * * */
 #about .full-width {
     padding: 80px 0;
@@ -103,7 +188,7 @@ header h2{
 #gallery {
     background: #acb8c2;
     text-align: center;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 #gallery .full-width {
@@ -263,3 +348,4 @@ img {
     margin: 50px;
     text-align: center;
     font-style: normal;
+}
