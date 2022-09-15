@@ -10,6 +10,10 @@ body {
     text-align: left;
   }
 
+  h1, h2, h3, h4, p {
+    font-family: 'Lato', sans-serif;
+  }
+
 /* * * * * GRID * * * * */
 
 .full-width {
@@ -115,10 +119,8 @@ header h2{
 
 
 #gallery {
-    background: #acb8c2;
-    text-align: center;
-    border: 1px solid black;
-    
+    background: white;
+    text-align: center;    
 }
 
 #gallery .full-width {
@@ -130,15 +132,14 @@ header h2{
 
 img {
     margin: 5px;
-    border: 2px solid black;
-    border-radius: 4px;
     height: 300px;
     
     }
 
 #gallery h2{
+    margin-top: 25px;
     font-weight: 300;
-    color:whitesmoke;
+    color:black;
     font-size: 2em;
     text-transform: uppercase;
 
@@ -152,11 +153,38 @@ img {
     font-size: 24px;
     line-height: 32px;
     margin: 0 auto;
-    
+}
+
+        
+figure {
+    filter: drop-shadow(1px 2px 6px lightgrey);
+   }
+       
+
+figure p, h3 {
+   color: black;
+   display: flex;
+   justify-content:flex-start;
+   align-items: stretch;
+   flex-flow: row wrap;
+   width: 50%;
+   margin: auto;
+   
+}
+
+figure a:link, a:visited, a:hover, a:active {
+   text-decoration: none;
 
 }
 
+/**** SKILS ****/
+
+#skills{
+    background: #8caac1;
+}
+
 .code-skills {
+    
     display: flex;
   justify-content: center;
   align-items: center;
@@ -179,29 +207,7 @@ article i {
   align-items: center;
   
 }
-        /*
-        figure {
-            
-            display: flex;
-            justify-content: end;
-        }
-        */
 
-figure p, h3 {
-    color: black;
-    display: flex;
-    justify-content:flex-start;
-    align-items: stretch;
-    flex-flow: row wrap;
-    width: 50%;
-    margin: auto;
-    
-}
-
-figure a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-
-}
 
 
 
@@ -225,6 +231,7 @@ figure a:link, a:visited, a:hover, a:active {
 /******* FOOTER *********/
 
 .footer-content {
+    border-top: 15px solid #8caac1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,6 +252,7 @@ footer .half-width{
        width: 100%;
        font-size: 2em;
        justify-content: center;
+       margin-top: 15px;
    }
    
    .social h4 {
