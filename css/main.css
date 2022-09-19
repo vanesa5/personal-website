@@ -7,7 +7,10 @@ body {
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
-    text-align: left;
+  }
+
+  header{
+      margin: 0;
   }
 
   h1, h2, h3, h4, p {
@@ -16,37 +19,24 @@ body {
 
 /* * * * * GRID * * * * */
 
-.full-width {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
 
-.half-width {
-    display: flex;
-}
 
-.third-width {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    
-}
+
+
+ 
 
 /* * * * * HEADER * * * * */
 
+
 header{ 
-    height: 300px;
-    background: #8caac1;
-    background-position: center;
-    background-size: cover;
+       
+    background: #8caac1;  
+    padding-top: 30px;  
+    margin-bottom: 30px;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 2em;
     color: whitesmoke;
     margin-right: 80px;
     text-transform: uppercase;
@@ -55,97 +45,106 @@ h1{
 }
 
 nav{
+   width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: row wrap;
-    padding: 75px 25px;
+    flex-flow: row wrap;
+   margin-bottom: 60px;
     
 }
 
+header nav ul {
+    width: 100%;
+  display:flex;
+  justify-content: space-around;
+}
 nav ul li{
     display: inline-block;
 }
 
 nav ul li a{
+    display:flex;
+    justify-content: space-around;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.8em;
+    font-weight: 300;
     text-decoration: none;
     color:#363633 ;
-    padding-left: 80px;
 }
 
+nav #contact-link {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
 
 header h2{
-    font-size: 55px;
+    font-size: 4em;
     
     display: flex;
     justify-content: left;
-    padding: 15px;
-    width: 100%;
+    
     clear: both;
-    margin: 5px;
     text-transform: lowercase;
     font-weight: lighter;
+    padding-bottom: 30px;
+    margin-left:15px ;
 }
 
 
-/* * * * * ABOUT * * * * */
-#about .full-width {
-    padding: 80px 0;
-}
-
-
-#about h2 {
-    font-size: 36px;
-    padding-left: 50px;
-    
-}
-
-#about p {
-    font-size: 21px;
-    color: #7f7f7f;
-    line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#about img {
-    height: 400px;
-    margin-left: 50px;
-}
 /***** GALLERY *****/
 
 
 
 #gallery {
     background: white;
-    text-align: center;    
+    margin: 80px 0 60px 0;
+    
+    
+       
 }
 
 #gallery .full-width {
+    margin-top: 20px;
     font-weight: 300;
-    padding: 50px;
-    display: flex;
-    flex-flow: row wrap;
+   
 }
 
-img {
+#gallery .fifth-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    
+}
+#gallery img {
     margin: 5px;
-    height: 300px;
+    width: 75%;
     
     }
 
-#gallery h2{
-    margin-top: 25px;
+#gallery .fifth-width p {
+    font-size: 1.25em;
+    width: 50%;
+    margin: 10px auto;
+    text-align: start;
+}
+    
+
+#gallery h2, #skills h2{
+    
     font-weight: 300;
     color:black;
     font-size: 2em;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 
     
 }
-#gallery strong {
+#gallery span {
     font-weight: 400;
 }
 #gallery h3 {
@@ -153,35 +152,28 @@ img {
     font-size: 24px;
     line-height: 32px;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
         
 figure {
     filter: drop-shadow(1px 2px 6px lightgrey);
    }
-       
 
-figure p, h3 {
-   color: black;
-   display: flex;
-   justify-content:flex-start;
-   align-items: stretch;
-   flex-flow: row wrap;
-   width: 50%;
-   margin: auto;
-   
-}
-
-figure a:link, a:visited, a:hover, a:active {
-   text-decoration: none;
-
-}
 
 /**** SKILS ****/
 
 #skills{
     background: #8caac1;
+    margin: 80px 0 140px 0;
 }
+
+#skills h2{
+    color: white;
+    padding-top:25px;
+}
+
 
 .code-skills {
     
@@ -209,28 +201,66 @@ article i {
 }
 
 
+/* * * * * ABOUT * * * * */
+#about .full-width {
+    justify-content: start;
+    padding: 40px 0;
+    flex-flow: row wrap;
+    margin: 140px 0 160px 0;
+   
+}
+
+#about .half-width {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-flow: row wrap;
+}
 
 
 
-/***** EMAIL *****/
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 50px;
+}
+
+#about h2 {
+    font-size: 36px;
+    padding-left: 50px;
+    
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-right: 50px;
 
     
-#email{
-    padding: 30px;
 }
 
-#email a{
-    font-size: 25px;
-    text-decoration: none;
-    color:#30465f;
-    text-transform: uppercase;
-    font-weight: 700;
-
+#about h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-right: 50px;
 }
 
+#about img {
+    max-height: 400px;
+    
+   
+}
+
+#about .half-width img {
+margin: 25px;
+   
+}
 /******* FOOTER *********/
 
-.footer-content {
+#contact-info {
     border-top: 15px solid #8caac1;
     display: flex;
     justify-content: center;
@@ -243,18 +273,23 @@ footer .half-width{
     width: 50%;
     display: flex;
     justify-content: center;
+
 }
    footer p {
     margin: 0;
   }
 
-   .footer-content h3{
+   #contact-info h3{
        width: 100%;
        font-size: 2em;
+       display: flex;
        justify-content: center;
-       margin-top: 15px;
+       margin: 160px 0 80px 0
    }
    
+   .social {
+       width: 50%;
+   }
    .social h4 {
        display: flex;
        justify-content: center;
@@ -299,124 +334,9 @@ footer .half-width{
    
    footer .copyright {
      width: 100%;
-     margin: 20px 0;
+     margin: 40px 0 140px 0;
      display: flex;
      justify-content: center;
+
    }
 
-/*----------------------------------------------------------------------------------*/
-/***** WORK PAGE *****/
-
-#work{
-    padding: 50px 0;
-    height: 200px;
-    background: #202c35;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-
-#work h2{
-    font-size: 30px;
-    color: whitesmoke;
-    padding-left: 50px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin:0 0 0 0;
-    text-transform: lowercase;
-    font-weight: lighter;
-}
-
-#work nav {
-   padding: 0;
-   padding-right:50px;
-   text-align: center;
-}
-
-#work nav ul li{
-    display: inline-block;
-}
-
-#work nav ul li a{
-    text-transform: uppercase;
-    font-size: 15px;
-    text-decoration: none;
-    color: whitesmoke ;
-    
-}
-
-.album .full-width {
-    padding: 50px;
-    padding-right: 0;
-}
-
-.album #photo-one, .album #photo-two {
-    margin-left: 90px;
-}
-
-/*----------------------------------------------------------------------------------*/
-/***** CONTACT PAGE *****/
-
-#contact{
-    padding: 50px 0;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-
-#contact h2{
-    font-size: 30px;
-    color: whitesmoke;
-    padding-left: 50px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin:0 0 0 0;
-    text-transform: lowercase;
-    font-weight: lighter;
-}
-
-#contact nav {
-   padding: 0;
-   padding-right:50px;
-   text-align: center;
-}
-
-.contact-section {
-    padding: 50px;
-}
-
-.contact-section .content-wrapper{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
-}
-
-.contact-section h3 {
-    font-size: 35px;
-    font-weight: 500;
-
-}
-
-.contact-section h4 {
-    font-size: 20px;
-    font-weight: 700;
-
-}
-
-.contact-section address  {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    
-
-}
-
-.contact-section address div {
-    margin: 50px;
-    text-align: center;
-    font-style: normal;
-}
