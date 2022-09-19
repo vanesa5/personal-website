@@ -131,7 +131,7 @@ header h2{
     margin: 10px auto;
     text-align: start;
 }
-    
+
 
 #gallery h2, #skills h2{
     
@@ -166,12 +166,12 @@ figure {
 
 #skills{
     background: #8caac1;
-    margin: 80px 0 140px 0;
+    padding: 60px 0 80px 0;
 }
 
 #skills h2{
     color: white;
-    padding-top:25px;
+    margin-bottom: 40px;
 }
 
 
@@ -203,17 +203,16 @@ article i {
 
 /* * * * * ABOUT * * * * */
 #about .full-width {
+    display: flex;
     justify-content: start;
-    padding: 40px 0;
     flex-flow: row wrap;
-    margin: 140px 0 160px 0;
+    margin: 80px 0;
    
 }
 
 #about .half-width {
     display: flex;
     justify-content: center;
-    width: 50%;
     flex-flow: row wrap;
 }
 
@@ -224,12 +223,12 @@ article i {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin-left: 50px;
 }
 
 #about h2 {
     font-size: 36px;
     padding-left: 50px;
+    width: 100%;
     
 }
 
@@ -238,6 +237,7 @@ article i {
     color: #7f7f7f;
     line-height: 40px;
     padding-right: 50px;
+    width: 50%;
 
     
 }
@@ -250,14 +250,10 @@ article i {
 
 #about img {
     max-height: 400px;
-    
-   
-}
+    border: solid #a1a0a0;
 
-#about .half-width img {
-margin: 25px;
    
-}
+} 
 /******* FOOTER *********/
 
 #contact-info {
