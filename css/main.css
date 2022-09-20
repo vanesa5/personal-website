@@ -126,10 +126,10 @@ header h2{
     }
 
 #gallery .fifth-width p {
-    font-size: 1.25em;
+    font-size: 2em;
     width: 50%;
     margin: 10px auto;
-    text-align: end;
+    text-align: start;
 }
 
 
@@ -149,7 +149,7 @@ header h2{
 }
 #gallery h3 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2.5em;
     line-height: 32px;
     margin: 0 auto;
     margin-top: 20px;
@@ -161,7 +161,13 @@ figure {
     filter: drop-shadow(1px 2px 6px lightgrey);
    }
 
-
+.class-project {
+    text-decoration: none;
+    font-size: 3em;
+    background-color: #8caac1;
+    padding: 10px;
+    border-radius: 30px;
+}
 /**** SKILS ****/
 
 #skills{
@@ -204,9 +210,10 @@ article i {
 /* * * * * ABOUT * * * * */
 #about .full-width {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-flow: row wrap;
     margin: 80px 0;
+    width: 80%;
    
 }
 
@@ -216,7 +223,9 @@ article i {
     flex-flow: row wrap;
 }
 
-
+#about h4, #about p {
+    line-height: 1.5em;
+}
 
 #about {
     display: flex;
@@ -225,32 +234,36 @@ article i {
     flex-flow: row wrap;
 }
 
+
 #about h2 {
-    font-size: 36px;
-    padding-left: 50px;
+    font-size: 3em;
+    font-weight: 600;
     width: 100%;
+    
     
 }
 
 #about p {
-    font-size: 21px;
+    font-size: 2em;
     color: #7f7f7f;
-    line-height: 40px;
-    padding-right: 50px;
-    width: 50%;
+    
+    
+    margin-bottom: 60px;
 
     
 }
 
 #about h4 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 400;
-    padding-right: 50px;
+    
+    margin-bottom: 40px;
 }
 
 #about img {
-    max-height: 400px;
+    width: 75%;
     border: solid #a1a0a0;
+    margin-bottom: 40px;
 
    
 } 
