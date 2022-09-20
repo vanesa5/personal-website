@@ -127,7 +127,7 @@ header h2{
 
 #gallery .fifth-width p {
     font-size: 2em;
-    width: 50%;
+    width: 65%;
     margin: 10px auto;
     text-align: start;
 }
@@ -137,7 +137,7 @@ header h2{
     
     font-weight: 300;
     color:black;
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -163,10 +163,14 @@ figure {
 
 .class-project {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300 ;
+    color: white;
     font-size: 3em;
     background-color: #8caac1;
     padding: 10px;
     border-radius: 30px;
+    margin: 40px 0;
 }
 /**** SKILS ****/
 
@@ -190,20 +194,27 @@ figure {
 }
 
 .code-skills article {
-    width: 30%;
+    width: 40%;
     padding: 60px 0 30px 0;
   }
   article {
       display: flex;
       justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
   }
 article i {
-	font-size: 3.75em;
+	font-size: 6em;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   
+}
+#tools p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -275,13 +286,14 @@ article i {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 90%;
+    
    }
    
 footer .half-width{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    
 
 }
    footer p {
@@ -290,7 +302,7 @@ footer .half-width{
 
    #contact-info h3{
        width: 100%;
-       font-size: 2em;
+       font-size: 4em;
        display: flex;
        justify-content: center;
        margin: 160px 0 80px 0
@@ -299,16 +311,19 @@ footer .half-width{
    .social {
        width: 50%;
    }
-   .social h4 {
+   .social h4, .contact h4 {
+       font-size: 2.5em;
        display: flex;
        justify-content: center;
    }
  
-   address h4{
+   .contact p {
+       font-size: 2em;
+   }
+   address{
        display: flex;
        justify-content: center;
-       font-family: 'Lato', sans-serif;
-       font-style: normal;
+       
 
        
    }
@@ -324,8 +339,8 @@ footer .half-width{
      background-color: #8caac1;
      
      border-radius: 50%;
-     width: 40px;
-     height: 40px;
+     width: 80px;
+     height: 80px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -333,7 +348,7 @@ footer .half-width{
    
    
    footer .social-icons p a i {
-     font-size: 1.3125em;
+     font-size: 3em;
      color: aliceblue;
    }
    
@@ -342,6 +357,7 @@ footer .half-width{
 }
    
    footer .copyright {
+       font-size: 2em;
      width: 100%;
      margin: 40px 0 140px 0;
      display: flex;
