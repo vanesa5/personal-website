@@ -322,7 +322,7 @@ footer .half-width{
        font-size: 4em;
        display: flex;
        justify-content: center;
-       margin: 160px 0 80px 0
+       margin: 80px 0 60px 0
    }
    
    .social {
@@ -338,11 +338,12 @@ footer .half-width{
        font-size: 2em;
    }
    address{
-       display: flex;
-       justify-content: center;
-       
+       text-align: center; 
+   }
 
-       
+   address p {
+       font-style: normal;
+       line-height: 2em;
    }
    
    footer .social-icons {
@@ -376,7 +377,7 @@ footer .half-width{
    footer .copyright {
        font-size: 2em;
      width: 100%;
-     margin: 40px 0 140px 0;
+     margin: 60px 0;
      display: flex;
      justify-content: center;
 
