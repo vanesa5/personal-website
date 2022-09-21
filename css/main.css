@@ -115,6 +115,7 @@ header h2{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     flex-flow: column;
     
@@ -171,6 +172,7 @@ figure {
     padding: 10px;
     border-radius: 30px;
     margin: 40px 0;
+    width: 30%;
 }
 /**** SKILS ****/
 
