@@ -7,7 +7,11 @@ body {
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
+   background: white;
+    
   }
+
+
 
   header{
       margin: 0;
@@ -27,6 +31,16 @@ body {
 
 /* * * * * HEADER * * * * */
 
+header,
+footer {
+  
+  background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
 
 header{ 
        
@@ -385,3 +399,70 @@ footer .half-width{
 
    }
 
+/* ------------ MEDIA QUARIES -------------- */
+
+
+@media only screen and (min-width: 768px)  {
+    /*Tablet styles here*/
+    body {
+        background-color: aqua;
+       
+    }
+
+    #gallery h3 {
+        font-size: 2em;
+    }
+#gallery .fifth-width p {
+    font-size: 1.5em;
+}
+
+    #gallery .full-width{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    #gallery .fifth-width {
+        width: 50%;
+        
+    }
+
+    #gallery img {
+        width: 70%;
+    }
+
+    #gallery a {
+        font-size: 1.5em;
+    }
+
+}
+
+   
+
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+     body {
+       background-color: red;
+     }
+     #gallery .fifth-width {
+        width: 33%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+
+
+        
+    }
+#gallery h3 {
+    font-size: 1.5em;
+}
+
+#gallery .fifth-width img {
+    width: 100%;
+}
+#gallery .fifth-width p {
+    font-size: 1.25em;
+}
+
+     }
