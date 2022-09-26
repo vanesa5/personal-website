@@ -3,11 +3,16 @@ html {
     font-size: 16px;
 }
 
+@-ms-viewport{
+    width: device-width;
+  }
+
 body {
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
    background: white;
+   width: fit-content;
     
   }
 
@@ -30,7 +35,9 @@ body {
 
 
 
- 
+ /* -------------------------------------------
+            MOBIL SETTINGS
+----------------------------------------------
 
 /* * * * * HEADER * * * * */
 
@@ -125,7 +132,6 @@ header h2{
 
 #gallery .fifth-width{
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -397,11 +403,16 @@ footer .half-width{
 
    }
 
+/* -------------------------------------------
+            END OF MOBIL SETTINGS
+----------------------------------------------
+
 /* ------------ MEDIA QUARIES -------------- */
 
 
 @media only screen and (min-width: 768px)  {
     /*Tablet styles here*/
+    
     body {
         background-color: aqua;
        
@@ -414,6 +425,10 @@ footer .half-width{
     #gallery h3 {
         font-size: 2em;
     }
+
+    #gallery .fifth-width{
+        width: 50%;
+    }
 #gallery .fifth-width p {
     font-size: 1.5em;
 }
@@ -424,11 +439,8 @@ footer .half-width{
         align-items: center;
         flex-flow: row wrap;
     }
-    #gallery .fifth-width {
-        width: 50%;
-        justify-content: stretch;
-        
-    }
+   
+    
 
     #gallery img {
         width: 70%;
@@ -441,7 +453,6 @@ footer .half-width{
 }
 
    
-
 
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
