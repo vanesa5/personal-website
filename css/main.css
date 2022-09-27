@@ -12,8 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
    background: white;
-   width: fit-content;
-    
+    width: fit-content;
   }
 
 
@@ -26,9 +25,15 @@ body {
     font-family: 'Lato', sans-serif;
   }
 
+  img {
+      width: 65%;
+  }
+
   #about {
       background-color: white;
   }
+
+
 /* * * * * GRID * * * * */
 
 
@@ -88,7 +93,7 @@ nav ul li a{
     display:flex;
     justify-content: space-around;
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1em;
     font-weight: 300;
     text-decoration: none;
     color:#363633 ;
@@ -101,7 +106,7 @@ nav #contact-link {
 }
 
 header h2{
-    font-size: 4em;
+    font-size: 2.5em;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -131,7 +136,7 @@ header h2{
 }
 
 #gallery .fifth-width{
-    width: 100%;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -140,12 +145,10 @@ header h2{
 }
 #gallery img {
     margin: 5px;
-    
-    
     }
 
 #gallery .fifth-width p {
-    font-size: 2em;
+    font-size: 1em;
     width: 65%;
     margin: 10px auto;
     text-align: start;
@@ -156,7 +159,7 @@ header h2{
     
     font-weight: 300;
     color:black;
-    font-size: 3em;
+    font-size: 1.5em;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -168,7 +171,7 @@ header h2{
 }
 #gallery h3 {
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 1.25em;
     line-height: 32px;
     margin: 0 auto;
     margin-top: 20px;
@@ -185,7 +188,7 @@ figure {
     text-transform: uppercase;
     font-weight: 300 ;
     color: white;
-    font-size: 3em;
+    font-size: 1.25em;
     background-color: #8caac1;
     padding: 10px;
     border-radius: 30px;
@@ -226,7 +229,7 @@ figure {
       flex-flow: row wrap;
   }
 article i {
-	font-size: 6em;
+	font-size: 4em;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -236,7 +239,7 @@ article i {
 
 
 #tools p, #skills p {
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     font-weight: 100;
 }
@@ -282,7 +285,7 @@ article i {
 
 
 #about h2 {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 600;
     width: 100%;
     
@@ -290,7 +293,7 @@ article i {
 }
 
 #about p {
-    font-size: 2em;
+    font-size: 1em;
     color: #7f7f7f;
     
     
@@ -300,7 +303,7 @@ article i {
 }
 
 #about h4 {
-    font-size: 2.5em;
+    font-size: 1.25em;
     font-weight: 400;
     
     margin-bottom: 40px;
@@ -337,7 +340,7 @@ footer .half-width{
 
    #contact-info h3{
        width: 100%;
-       font-size: 4em;
+       font-size: 1.5em;
        display: flex;
        justify-content: center;
        margin: 80px 0 60px 0
@@ -348,13 +351,13 @@ footer .half-width{
    }
    .social h4, .contact h4, .meet-up h4 {
        margin: 60px 0 30px 0;
-       font-size: 2.5em;
+       font-size: 1.25em;
        display: flex;
        justify-content: center;
    }
  
    .contact p, .meet-up p {
-       font-size: 2em;
+       font-size: 1em;
        line-height: 1.5em;
    }
    address, .meet-up{
@@ -377,8 +380,8 @@ footer .half-width{
      background-color: #8caac1;
      
      border-radius: 50%;
-     width: 80px;
-     height: 80px;
+     width: 60px;
+     height: 60px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -386,7 +389,7 @@ footer .half-width{
    
    
    footer .social-icons p a i {
-     font-size: 3em;
+     font-size: 2em;
      color: aliceblue;
    }
    
@@ -395,7 +398,7 @@ footer .half-width{
 }
    
    footer .copyright {
-       font-size: 2em;
+       font-size: 1em;
      width: 100%;
      margin: 60px 0;
      display: flex;
