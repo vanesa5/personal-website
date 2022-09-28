@@ -428,10 +428,7 @@ footer .half-width{
 @media only screen and (min-width: 768px)  {
     /*Tablet styles here*/
     
-    body {
-        background-color: aqua;
-       
-    }
+  
 
 /* * * HEADER * * */
 nav{
@@ -514,9 +511,7 @@ footer .social-icons p {
 
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
-     body {
-       background-color: red;
-     }
+
 
     /***** HEADER **********/
 
