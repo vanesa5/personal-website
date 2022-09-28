@@ -12,7 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
    background: white;
-   width: 90%;
+   
   }
 
 
@@ -21,7 +21,7 @@ body {
       margin: 0;
   }
 
-  h2, h3, h4, p {
+  h1, h2, h3, h4, p {
     font-family: 'Lato', sans-serif;
   }
 
@@ -48,7 +48,6 @@ body {
 
 header,
 footer {
-  
   background-color: white;
     display: flex;
     justify-content: center;
@@ -57,17 +56,21 @@ footer {
     
 }
 
-header{ 
-       
+header { 
     background: #8caac1;  
     padding-top: 30px;  
     padding-bottom: 30px;
 }
 
-
-header .full-width {
-    width: 100%;
+h1 {
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
 }
+
 
 nav{
    width: 100%; 
@@ -75,7 +78,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-   margin-bottom: 60px;
+   margin-bottom: 20px;
     
 }
 
@@ -85,7 +88,9 @@ header nav ul {
   display:flex;
   justify-content: space-around;
   align-items: center;
+  padding-left: 0;
 } 
+
 nav ul li{
     display: inline-block;
 }
@@ -107,15 +112,14 @@ nav #contact-link {
 }
 
 header h2{
-    font-size: 2em;
+    font-size: 2.25em;
     width: 100%;
     display: flex;
     justify-content: left;
-    
+    font-stretch: expanded;
     clear: both;
     text-transform: lowercase;
     font-weight: lighter;
-    padding-bottom: 30px;
     margin-left:15px ;
 }
 
@@ -312,6 +316,8 @@ article i {
 
 #about img {
     width: 75%;
+    max-height: 500px;
+    max-width: fit-content;
     border: solid #a1a0a0;
     margin-bottom: 40px;
 
@@ -326,6 +332,10 @@ article i {
     align-items: center;
     flex-flow: row wrap;
     
+   }
+
+   footer .full-width{
+       width: 100%;
    }
    
 footer .half-width{
@@ -357,7 +367,7 @@ footer .half-width{
        justify-content: center;
    }
  
-   .contact p, .meet-up p {
+   .contact p, .meet-up p, .social p {
        font-size: 1em;
        line-height: 1.5em;
    }
@@ -379,7 +389,7 @@ footer .half-width{
    
    footer .social-icons p {
      background-color: #8caac1;
-     
+
      border-radius: 50%;
      width: 60px;
      height: 60px;
@@ -454,6 +464,23 @@ footer .half-width{
         font-size: 1.5em;
     }
 
+/* ------FOOTER--------*/
+footer .social-icons p {
+   
+    
+    
+    width: 30px;
+    height: 30px;
+}
+
+    footer .social-icons p a i {
+        font-size: 1em;
+        color: aliceblue;
+      }
+
+    footer .half-width{
+        width: 30%;
+    }
 }
 
    
@@ -509,6 +536,7 @@ footer .half-width{
         
         display: flex;
         
+        
 
         
     }
@@ -531,4 +559,35 @@ footer .half-width{
      article i{
          font-size: 4em;
      }
+
+     /* ------FOOTER--------*/
+
+
+footer .social-icons p {
+
+    width: 30px;
+    height: 30px;
+}
+
+.contact, .social, .meet-up{
+    align-items: flex-start;
+}
+   
+
+    footer .half-width{
+        width: 30%;
+       
     }
+    
+
+/* ------ABOUT--------*/
+
+#about p {
+    font-size: 1.25em;
+}
+ 
+#about h4 {
+
+}
+
+}
