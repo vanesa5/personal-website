@@ -59,8 +59,7 @@ footer {
 header { 
     background: url(../img/vanesa-portfolio-header.png);  
     background-size: cover;
-    padding-top: 30px;  
-    padding-bottom: 30px;
+
 }
 
 h1 {
@@ -113,7 +112,7 @@ nav #contact-link {
 }
 
 header h2{
-    font-size: 2.25em;
+    font-size: 2.75em;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -214,7 +213,7 @@ figure {
 }
 
 
-.code-skills {
+.code-skills, .code-tools {
     
     display: flex;
   justify-content: center;
@@ -222,7 +221,7 @@ figure {
   flex-flow: row wrap;
 }
 
-.code-skills article {
+.code-skills article, .code-tools article {
     width: 40%;
     padding: 60px 0 30px 0;
     display: flex;
@@ -291,6 +290,7 @@ article i {
 
 
 #about h2 {
+    font-family: 'Assistant', sans-serif;
     font-size: 1.5em;
     font-weight: 600;
     width: 100%;
@@ -299,13 +299,13 @@ article i {
 }
 
 #about p {
-    font-size: 1em;
+    font-size: 1.15em;
     color: #7f7f7f;
-    
-    
     margin-bottom: 60px;
+}
 
-    
+#about .last-par{
+    color: black;
 }
 
 #about h4 {
@@ -434,13 +434,19 @@ footer .half-width{
     }
 
 /* * * HEADER * * */
+nav{
+    margin: 80px 0;
+}
 h1 {
     font-size: 3em;
+    margin: 0;
+
 }
 
 header h2{
     font-size:4em ;
-    margin-left: 30px;
+    padding-left: 30px;
+    margin: 80px 0;
 }
 
 
@@ -450,20 +456,20 @@ header h2{
 /* * * Gallery * * */
 
     #gallery h3 {
-        font-size: 2em;
+        font-size: 1.25em;
     }
 
     #gallery .fifth-width{
         width: 50%;
     }
 #gallery .fifth-width p {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
     #gallery .full-width{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         flex-flow: row wrap;
     }
    
@@ -474,7 +480,11 @@ header h2{
     }
 
     #gallery a {
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+
+    article i{
+        font-size: 4em;
     }
 /* ------ABOUT--------*/
 
@@ -519,7 +529,7 @@ footer .social-icons p {
         display: block;
         justify-content: end;
         align-items: center;
-        margin: 80px 0;
+        margin-right: 40px;
     }
 
 
@@ -546,20 +556,19 @@ footer .social-icons p {
         width: 100%;
         display: flex;
         justify-content: center;
+        margin: 0;
     }
 
     header h2 {
         font-size: 5.5em;
-        margin: 60px 0 140px 0;
+        margin: 40px 0 140px 0;
         padding-left: 60px;
     }
      
      #gallery .fifth-width {
         width: 33%;
         
-        display: flex;
-
-        
+        display: flex; 
     }
 
     
@@ -579,9 +588,7 @@ footer .social-icons p {
     width: 33%;
      }
 
-     article i{
-         font-size: 4em;
-     }
+
 
      /* ------FOOTER--------*/
 
@@ -605,12 +612,18 @@ footer .social-icons p {
 
 /* ------ABOUT--------*/
 
+#about h2 {
+    font-size: 3em;
+}
+
+#about h4 {
+    font-size: 2em;
+}
+
 #about p {
     font-size: 1.25em;
 }
  
-#about h4 {
 
-}
 
 }
