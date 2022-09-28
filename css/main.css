@@ -452,6 +452,9 @@ header h2{
 
 /* * * Gallery * * */
 
+#gallery h2 {
+    font-size: 2.5em;
+}
     #gallery h3 {
         font-size: 1.25em;
     }
@@ -479,12 +482,27 @@ header h2{
     #gallery a {
         font-size: 1em;
     }
-
+/* ----------Skills-----------*/
+#skills h2, #tools h2{
+    font-size: 2em;
+}
     article i{
         font-size: 4em;
     }
-/* ------ABOUT--------*/
 
+
+/* ------ABOUT--------*/
+#about h2 {
+    font-size: 2em;
+}
+
+#about h4 {
+    font-size: 1.5em;
+}
+
+#about p {
+    font-size: 1.15em;
+}
 
 
 
@@ -565,7 +583,10 @@ footer .social-icons p {
         
         display: flex; 
     }
-
+#gallery h2 {
+    font-size: 2.75em;
+    margin-bottom: 80px;
+}
     
 #gallery h3 {
     font-size: 1.5em;
@@ -575,7 +596,7 @@ footer .social-icons p {
     width: 100%;
 }
 #gallery .fifth-width p {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 
@@ -584,25 +605,10 @@ footer .social-icons p {
      }
 
 
-
-     /* ------FOOTER--------*/
-
-
-footer .social-icons p {
-
-    width: 30px;
-    height: 30px;
+#skills h2, #tools h2 {
+font-size: 2.5em;
 }
 
-.contact, .social, .meet-up{
-    align-items: flex-start;
-}
-   
-
-    footer .half-width{
-        width: 30%;
-       
-    }
     
 
 /* ------ABOUT--------*/
@@ -619,6 +625,25 @@ footer .social-icons p {
     font-size: 1.25em;
 }
  
+     /* ------FOOTER--------*/
 
+#contact-info h3 {
+    font-size: 2.5em;
+}
+     footer .social-icons p {
+
+        width: 30px;
+        height: 30px;
+    }
+    
+    .contact, .social, .meet-up{
+        align-items: flex-start;
+    }
+       
+    
+        footer .half-width{
+            width: 30%;
+           
+        }
 
 }
