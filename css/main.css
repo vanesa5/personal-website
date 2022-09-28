@@ -57,7 +57,8 @@ footer {
 }
 
 header { 
-    background: #8caac1;  
+    background: url(../img/vanesa-portfolio-header.png);  
+    background-size: cover;
     padding-top: 30px;  
     padding-bottom: 30px;
 }
@@ -67,7 +68,7 @@ h1 {
     color: white;
     font-size: 2em;
     font-weight: 400;
-    text-transform: uppercase;
+    
     text-align: left;
 }
 
@@ -432,6 +433,18 @@ footer .half-width{
        
     }
 
+/* * * HEADER * * */
+h1 {
+    font-size: 3em;
+}
+
+header h2{
+    font-size:4em ;
+    margin-left: 30px;
+}
+
+
+
 
 
 /* * * Gallery * * */
@@ -463,6 +476,10 @@ footer .half-width{
     #gallery a {
         font-size: 1.5em;
     }
+/* ------ABOUT--------*/
+
+
+
 
 /* ------FOOTER--------*/
 footer .social-icons p {
@@ -524,22 +541,28 @@ footer .social-icons p {
        
         color:#363633 ;
     }
+    h1{
+        font-size: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     header h2 {
         font-size: 5.5em;
-        margin: 0 0 140px 0;
-        padding-left: 30px;
+        margin: 60px 0 140px 0;
+        padding-left: 60px;
     }
      
      #gallery .fifth-width {
         width: 33%;
         
         display: flex;
-        
-        
 
         
     }
+
+    
 #gallery h3 {
     font-size: 1.5em;
 }
