@@ -173,7 +173,6 @@ header h2{
 #gallery .fifth-width p {
     font-size: 1rem;
     width: 95%;
-    margin: .625rem auto;
     text-align: left;
 }
 
@@ -221,6 +220,10 @@ figure {
 .class-project:hover{
     opacity: 0.6;
     transition: 0.3s;
+}
+
+.class-project:visited{
+    color: white;
 }
 /**** SKILLS & TOOLS ****/
 
@@ -295,10 +298,9 @@ article i {
    
 }
 
-#about .half-width {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+#about h2, #about h4, #about p{
+    
+    max-width: 700px;
 }
 
 #about h4, #about p {
@@ -321,6 +323,7 @@ article i {
     font-size: 1.15rem;
     color: #7f7f7f;
     margin-bottom: 3.75rem;
+    
 }
 
 #about .last-par{
