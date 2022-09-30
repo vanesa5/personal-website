@@ -467,6 +467,12 @@ footer .half-width{
 nav{
     margin: 5rem 0;
 }
+
+nav ul li a{
+font-size: 1rem;
+}
+
+
 h1 {
     font-size: 3rem;
     margin: 0;
@@ -540,16 +546,14 @@ header h2{
 
 
 /* ------FOOTER--------*/
-footer .social-icons p {
-   
-    
-    
-    width: 1.875rem;
-    height: 1.875rem;
-}
 
+footer .social-icons p{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
     footer .social-icons p a i {
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: aliceblue;
       }
 
@@ -593,7 +597,7 @@ footer .social-icons p {
         display:flex;
         justify-content: space-around;
         text-transform: uppercase;
-        
+        font-size: 1.5rem;
        
         color:#363633 ;
     }
@@ -607,7 +611,7 @@ footer .social-icons p {
 
     header h2 {
         font-size: 5.5rem;
-        margin: 2.5rem 0 12.5rem 0;
+        margin: 2.5rem 0 6rem 0;
         padding-left: 3.75rem;
     }
      
@@ -663,11 +667,7 @@ font-size: 2.5rem;
 #contact-info h3 {
     font-size: 2.5rem;
 }
-     footer .social-icons p {
-
-        width: 1.875rem;
-        height: 1.875rem;
-    }
+    
     
     .contact, .social, .meet-up{
         align-items: flex-start;
