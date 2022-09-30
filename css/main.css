@@ -8,7 +8,7 @@ html {
   }
 
 body {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
    background: white;
@@ -75,10 +75,10 @@ header {
 h1 {
     font-family: 'Assistant', sans-serif;
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 
 }
 
@@ -89,7 +89,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-   margin-bottom: 20px;
+   margin-bottom: 1.25rem;
     
 }
 
@@ -110,7 +110,7 @@ nav ul li a{
     display:flex;
     justify-content: space-around;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: .9rem;
     font-weight: 300;
     text-decoration: none;
     color:#363633 ;
@@ -118,8 +118,8 @@ nav ul li a{
 
 nav #contact-link {
     background-color: white;
-    padding: 10px;
-    border-radius: 30px;
+    padding: .625rem;
+    border-radius: 1.875rem;
   
 }
 
@@ -131,7 +131,7 @@ nav #contact-link:hover{
 
 
 header h2{
-    font-size: 2.75em;
+    font-size: 2.5rem;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -139,7 +139,6 @@ header h2{
     clear: both;
     text-transform: lowercase;
     font-weight: lighter;
-    margin-left:15px ;
 }
 
 
@@ -149,12 +148,12 @@ header h2{
 
 #gallery {
     background: white;
-    padding: 80px 0 60px 0;
+    padding: 5rem 0 3.75rem 0;
      
 }
 
 #gallery .full-width {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 300;
    
 }
@@ -172,9 +171,9 @@ header h2{
     }
 
 #gallery .fifth-width p {
-    font-size: 1em;
+    font-size: 1rem;
     width: 65%;
-    margin: 10px auto;
+    margin: .625rem auto;
     text-align: start;
 }
 
@@ -183,7 +182,7 @@ header h2{
     
     font-weight: 300;
     color:black;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -195,11 +194,11 @@ header h2{
 }
 #gallery h3 {
     font-weight: 400;
-    font-size: 1.25em;
-    line-height: 32px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
         
@@ -212,11 +211,11 @@ figure {
     text-transform: uppercase;
     font-weight: 300 ;
     color: white;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     background-color: #8caac1;
-    padding: 10px;
-    border-radius: 30px;
-    margin: 40px 0;
+    padding: .625rem;
+    border-radius: 1.875rem;
+    margin: 2.5rem 0;
     width: 30%;
 }
 
@@ -228,12 +227,12 @@ figure {
 
 #skills, #tools{
     background: #8caac1;
-    padding: 60px 0 80px 0;
+    
 }
 
 #skills h2{
     color: white;
-    margin-bottom: 40px;
+    padding-top: 2.5rem;
 }
 
 
@@ -247,7 +246,7 @@ figure {
 
 .code-skills article, .code-tools article {
     width: 40%;
-    padding: 60px 0 30px 0;
+    padding: 3.75rem 0 1.875rem 0;
     display: flex;
     flex-flow: column;
   }
@@ -258,8 +257,8 @@ figure {
       flex-flow: row wrap;
   }
 article i {
-	font-size: 2.5em;
-  margin-bottom: 20px;
+	font-size: 2.5rem;
+  margin-bottom: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,12 +267,12 @@ article i {
 
 
 #tools p, #skills p {
-    font-size: 1em;
+    font-size: 1rem;
     color: white;
     font-weight: 100;
 }
 #tools h2 {
-    margin: 80px 0;
+    margin-top: 5rem;
     background-color: white;
     color: #8caac1;
     font-weight: 300;
@@ -292,7 +291,7 @@ article i {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 80px 0;
+    margin: 5rem 0;
    
    
 }
@@ -304,7 +303,7 @@ article i {
 }
 
 #about h4, #about p {
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 
@@ -312,7 +311,7 @@ article i {
 
 #about h2 {
     font-family: 'Assistant', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
     width: 100%;
     
@@ -320,9 +319,9 @@ article i {
 }
 
 #about p {
-    font-size: 1.15em;
+    font-size: 1.15rem;
     color: #7f7f7f;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 #about .last-par{
@@ -330,25 +329,25 @@ article i {
 }
 
 #about h4 {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 400;
     
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 #about img {
     width: 75%;
-    max-height: 500px;
+    max-height: 31.25rem;
     max-width: fit-content;
     border: solid #a1a0a0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 
    
 } 
 /******* FOOTER *********/
 
 #contact-info {
-    border-top: 15px solid #8caac1;
+    border-top: .9375rem solid #8caac1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,25 +372,25 @@ footer .half-width{
 
    #contact-info h3{
        width: 100%;
-       font-size: 1.5em;
+       font-size: 1.5rem;
        display: flex;
        justify-content: center;
-       margin: 80px 0 60px 0
+       margin: 5rem 0 3.75rem 0
    }
    
    .social {
        width: 50%;
    }
    .social h4, .contact h4, .meet-up h4 {
-       margin: 60px 0 30px 0;
-       font-size: 1.25em;
+       margin: 3.75rem 0 1.875rem 0;
+       font-size: 1.25rem;
        display: flex;
        justify-content: center;
    }
  
    .contact p, .meet-up p, .social p {
-       font-size: 1em;
-       line-height: 1.5em;
+       font-size: 1rem;
+       line-height: 1.5rem;
    }
    address, .meet-up{
        text-align: center; 
@@ -413,8 +412,8 @@ footer .half-width{
      background-color: #8caac1;
 
      border-radius: 50%;
-     width: 60px;
-     height: 60px;
+     width: 3rem;
+     height: 3rem;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -422,7 +421,7 @@ footer .half-width{
    
    
    footer .social-icons p a i {
-     font-size: 2em;
+     font-size: 1.75rem;
      color: aliceblue;
    }
    
@@ -431,9 +430,9 @@ footer .half-width{
 }
    
    footer .copyright {
-       font-size: 1em;
+       font-size: 1rem;
      width: 100%;
-     margin: 60px 0;
+     margin: 3.75rem 0;
      display: flex;
      justify-content: center;
 
@@ -450,23 +449,23 @@ footer .half-width{
     /*Tablet styles here*/
     
   .content-wrapper{
-      max-width: 640px;
+      max-width: 62.5rem;
   }
 
 /* * * HEADER * * */
 nav{
-    margin: 80px 0;
+    margin: 5rem 0;
 }
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     margin: 0;
 
 }
 
 header h2{
-    font-size:4em ;
-    padding-left: 30px;
-    margin: 80px 0;
+    font-size:4rem ;
+    padding-left: 1.875rem;
+    margin: 5rem 0;
 }
 
 
@@ -476,17 +475,17 @@ header h2{
 /* * * Gallery * * */
 
 #gallery h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
     #gallery h3 {
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
 
     #gallery .fifth-width{
         width: 50%;
     }
 #gallery .fifth-width p {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
     #gallery .full-width{
@@ -503,28 +502,28 @@ header h2{
     }
 
     #gallery a {
-        font-size: 1em;
+        font-size: 1rem;
     }
 /* ----------Skills-----------*/
 #skills h2, #tools h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
     article i{
-        font-size: 4em;
+        font-size: 4rem;
     }
 
 
 /* ------ABOUT--------*/
 #about h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 #about h4 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 #about p {
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 
 
@@ -534,12 +533,12 @@ footer .social-icons p {
    
     
     
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
     footer .social-icons p a i {
-        font-size: 1em;
+        font-size: 1rem;
         color: aliceblue;
       }
 
@@ -554,7 +553,7 @@ footer .social-icons p {
     /*Desktop styles here*/
 
     .content-wrapper{
-        max-width: 960px;
+        max-width: 93.75rem;
     }
 
     /***** HEADER **********/
@@ -565,7 +564,7 @@ footer .social-icons p {
         display: flex;
         justify-content: end;
         align-items: center;
-        margin-right: 40px;
+        margin-right: 2.5rem;
     }
 
 
@@ -588,7 +587,7 @@ footer .social-icons p {
         color:#363633 ;
     }
     h1{
-        font-size: 4em;
+        font-size: 4rem;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -596,9 +595,9 @@ footer .social-icons p {
     }
 
     header h2 {
-        font-size: 5.5em;
-        margin: 40px 0 140px 0;
-        padding-left: 60px;
+        font-size: 5.5rem;
+        margin: 2.5rem 0 12.5rem 0;
+        padding-left: 3.75rem;
     }
      
      #gallery .fifth-width {
@@ -607,12 +606,12 @@ footer .social-icons p {
         display: flex; 
     }
 #gallery h2 {
-    font-size: 2.75em;
-    margin-bottom: 80px;
+    font-size: 2.75rem;
+    margin-bottom: 5rem;
 }
     
 #gallery h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 #gallery .fifth-width img {
@@ -627,7 +626,7 @@ footer .social-icons p {
 
 
 #skills h2, #tools h2 {
-font-size: 2.5em;
+font-size: 2.5rem;
 }
 
     
@@ -635,26 +634,26 @@ font-size: 2.5em;
 /* ------ABOUT--------*/
 
 #about h2 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 #about h4 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 #about p {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
  
      /* ------FOOTER--------*/
 
 #contact-info h3 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
      footer .social-icons p {
 
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
     
     .contact, .social, .meet-up{
