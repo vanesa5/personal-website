@@ -35,10 +35,7 @@ body {
 
   .content-wrapper {
       width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+
     margin: 0;
   }
 
@@ -72,7 +69,7 @@ footer {
 header { 
     background: url(../img/vanesa-portfolio-header.png);  
     background-size: cover;
-
+    background-position: left;
 }
 
 h1 {
@@ -80,8 +77,9 @@ h1 {
     color: white;
     font-size: 2em;
     font-weight: 400;
-    
-    text-align: left;
+    text-align: center;
+    margin-top: 30px;
+
 }
 
 
@@ -213,9 +211,9 @@ figure {
     margin: 40px 0;
     width: 30%;
 }
-/**** SKILLS ****/
+/**** SKILLS & TOOLS ****/
 
-#skills{
+#skills, #tools{
     background: #8caac1;
     padding: 60px 0 80px 0;
 }
@@ -266,6 +264,8 @@ article i {
     background-color: white;
     color: #8caac1;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
 
 }
 #tools .photoshop  {
@@ -280,7 +280,7 @@ article i {
     justify-content: center;
     flex-flow: row wrap;
     margin: 80px 0;
-    width: 80%;
+   
    
 }
 
@@ -294,12 +294,7 @@ article i {
     line-height: 1.5em;
 }
 
-#about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
+
 
 
 #about h2 {
@@ -551,13 +546,10 @@ footer .social-icons p {
 
     /***** HEADER **********/
 
-   header {
-       justify-content: end;
-   }
+   
 
     nav {
-        width: 50%;
-        display: block;
+        display: flex;
         justify-content: end;
         align-items: center;
         margin-right: 40px;
@@ -565,7 +557,7 @@ footer .social-icons p {
 
 
     header nav ul {
-
+        width: 50%;
         display:flex;
         justify-content: space-around;
       } 
@@ -578,7 +570,7 @@ footer .social-icons p {
         display:flex;
         justify-content: space-around;
         text-transform: uppercase;
-        font-size: 1.5em;
+        
        
         color:#363633 ;
     }
@@ -613,9 +605,7 @@ footer .social-icons p {
 #gallery .fifth-width img {
     width: 100%;
 }
-#gallery .fifth-width p {
-    font-size: 1.5em;
-}
+
 
 
 .code-skills article {
