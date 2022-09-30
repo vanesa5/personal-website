@@ -120,7 +120,15 @@ nav #contact-link {
     background-color: white;
     padding: 10px;
     border-radius: 30px;
+  
 }
+
+nav #contact-link:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
 
 header h2{
     font-size: 2.75em;
@@ -210,6 +218,11 @@ figure {
     border-radius: 30px;
     margin: 40px 0;
     width: 30%;
+}
+
+.class-project:hover{
+    opacity: 0.6;
+    transition: 0.3s;
 }
 /**** SKILLS & TOOLS ****/
 
