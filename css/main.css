@@ -148,7 +148,7 @@ header h2{
 
 #gallery {
     background: white;
-    padding: 5rem 0 3.75rem 0;
+    padding-top: 3.5rem;
      
 }
 
@@ -172,9 +172,9 @@ header h2{
 
 #gallery .fifth-width p {
     font-size: 1rem;
-    width: 65%;
+    width: 95%;
     margin: .625rem auto;
-    text-align: start;
+    text-align: left;
 }
 
 
@@ -211,11 +211,10 @@ figure {
     text-transform: uppercase;
     font-weight: 300 ;
     color: white;
-    font-size: 1.25rem;
     background-color: #8caac1;
     padding: .625rem;
     border-radius: 1.875rem;
-    margin: 2.5rem 0;
+    margin: 1.5rem 0 2.5rem 0;
     width: 30%;
 }
 
@@ -287,11 +286,11 @@ article i {
 
 
 /* * * * * ABOUT * * * * */
-#about .full-width {
+#about .full-width, #gallery .full-width{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 5rem 0;
+    margin: 3.5rem 0;
    
    
 }
@@ -326,6 +325,7 @@ article i {
 
 #about .last-par{
     color: black;
+    margin: 0;
 }
 
 #about h4 {
