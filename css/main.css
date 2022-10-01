@@ -229,7 +229,7 @@ figure {
 /**** SKILLS & TOOLS ****/
 
 #skills, #tools{
-    background: #8caac1;
+    background:  #527188;
     
 }
 
@@ -329,7 +329,7 @@ margin-top: 6rem;
 
 #about p {
     font-size: 1.15rem;
-    color: #7f7f7f;
+    
     margin-bottom: 3.75rem;
     
 }
@@ -358,7 +358,7 @@ margin-top: 6rem;
 /******* FOOTER *********/
 
 #contact-info {
-    border-top: .9375rem solid #8caac1;
+    border-top: .9375rem solid  #527188;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,7 +420,7 @@ footer .half-width{
    }
    
    footer .social-icons p {
-     background-color: #8caac1;
+     background-color:  #527188;
 
      border-radius: 50%;
      width: 3rem;
