@@ -68,12 +68,13 @@ footer {
 
 header { 
     background: #527188;
+    padding-bottom: 3.75rem;
 }
 
 h1 {
-    font-family: 'Assistant', sans-serif;
-    color: black;
-    font-size: 2rem;
+    
+    color: white;
+    font-size: 2.5rem;
     font-weight: 400;
     text-align: center;
     margin-top: 1.875rem;
@@ -88,7 +89,7 @@ nav{
     align-items: center;
     flex-flow: row wrap;
 
-   margin-bottom: 1.25rem;
+   margin-bottom: 3.75rem;
     
 }
 
@@ -115,31 +116,51 @@ nav ul li a{
     color:white ;
 }
 
+nav ul li a:hover, nav #contact-link:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 1.875rem;
+    padding: .625rem;
+    background-color: black;
+    
+}
 
 nav #contact-link {
     background-color: white;
     padding: .625rem;
     border-radius: 1.875rem;
-  color: red;
+  color: black;
 }
 
 nav #contact-link:hover{
-    opacity: 0.6;
-    transition: 0.3s;
+    color: white
 }
 
 
 
 header h2{
-    font-size: 2.5rem;
+    font-size: 2.15rem;
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-weight: lighter;
     color: white;
+    margin-top: 3.75rem;
+    margin-bottom: .75rem;
+   
     
 }
 
+header p {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 200;
+    line-height: 1.5rem;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: .05rem;
+    
+}
 
 /***** GALLERY *****/
 
@@ -469,8 +490,12 @@ footer .half-width{
   }
 
 /* * * HEADER * * */
+header {
+    padding-top: 3.75rem;
+    padding-bottom: 5rem;
+}
 nav{
-    margin: 5rem 0;
+    margin-bottom: 5rem;
 }
 
 nav ul li a{
@@ -485,11 +510,15 @@ h1 {
 }
 
 header h2{
-    font-size:4rem ;
-    padding-left: 1.875rem;
-    margin: 5rem 0;
+    font-size:2.75rem ;
+    margin-top: 5rem;
+    
 }
 
+header p{
+    font-size: 1.75rem;
+    line-height: 2rem ;
+}
 
 
 
@@ -542,10 +571,12 @@ header h2{
 
 #about h4 {
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 #about p {
     font-size: 1.15rem;
+    line-height: 1.5rem;
 }
 
 
@@ -577,7 +608,10 @@ footer .social-icons p{
     }
 
     /***** HEADER **********/
-
+header{
+    padding-top: 5rem;
+    padding-bottom: 8.75rem;
+}
    
 
     nav {
@@ -602,24 +636,28 @@ footer .social-icons p{
         display:flex;
         justify-content: space-around;
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
        
-        color:#363633 ;
     }
     h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
         width: 100%;
         display: flex;
         justify-content: center;
-        margin: 0;
+        
     }
 
     header h2 {
-        font-size: 5.5rem;
-        margin: 2.5rem 0 6rem 0;
-        padding-left: 3.75rem;
+        font-size: 3.35rem;
+        margin-top: 2.5rem;  
+        margin-bottom:1.5rem;  
+    }
+
+    header p{
+        font-size: 2rem;
     }
      
+
      #gallery .fifth-width {
         width: 30%;
         
