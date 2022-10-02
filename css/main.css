@@ -112,14 +112,15 @@ nav ul li a{
     font-size: .9rem;
     font-weight: 300;
     text-decoration: none;
-    color:black ;
+    color:white ;
 }
+
 
 nav #contact-link {
     background-color: white;
     padding: .625rem;
     border-radius: 1.875rem;
-  
+  color: red;
 }
 
 nav #contact-link:hover{
@@ -266,6 +267,7 @@ article i {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
   
 #tools{
