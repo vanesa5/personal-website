@@ -67,14 +67,12 @@ footer {
 
 
 header { 
-    background: url(../img/vanesa-portfolio-header.png);  
-    background-size: cover;
-    background-position: left;
+    background: #527188;
 }
 
 h1 {
     font-family: 'Assistant', sans-serif;
-    color: white;
+    color: black;
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
@@ -89,6 +87,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
    margin-bottom: 1.25rem;
     
 }
@@ -113,7 +112,7 @@ nav ul li a{
     font-size: .9rem;
     font-weight: 300;
     text-decoration: none;
-    color:#363633 ;
+    color:black ;
 }
 
 nav #contact-link {
@@ -135,10 +134,8 @@ header h2{
     width: 100%;
     display: flex;
     justify-content: left;
-    font-stretch: expanded;
-    clear: both;
-    text-transform: lowercase;
     font-weight: lighter;
+    color: white;
     
 }
 
@@ -282,6 +279,7 @@ margin-top: 6rem;
 }
 #tools h2 {
     margin-top: 5rem;
+    text-transform: uppercase;
     color: white;
     font-weight: 300;
     display: flex;
@@ -293,6 +291,9 @@ margin-top: 6rem;
     font-style: normal;
 }
 
+.code-tools{
+    padding-bottom:5rem ;
+}
 
 /* * * * * ABOUT * * * * */
 #about .full-width, #gallery .full-width{
