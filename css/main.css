@@ -305,6 +305,10 @@ margin-top: 6rem;
     font-style: normal;
 }
 
+i.fa-regular.fa-square {
+    margin-top: .78rem;
+}
+
 .code-tools{
     padding-bottom:5rem ;
 }
@@ -555,6 +559,10 @@ header p{
     }
 
 
+
+    i.fa-regular.fa-square {
+        margin-top: .6rem;
+    }
 /* ------ABOUT--------*/
 #about h2 {
     font-size: 2rem;
