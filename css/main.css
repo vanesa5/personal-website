@@ -561,7 +561,7 @@ header p{
 
 
     i.fa-regular.fa-square {
-        margin-top: .6rem;
+        margin-top: 1.1rem;
     }
 /* ------ABOUT--------*/
 #about h2 {
@@ -709,7 +709,7 @@ font-size: 2.5rem;
 
 #about h4 {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.25rem;
 }
 
 #about p {
