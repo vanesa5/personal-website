@@ -452,21 +452,10 @@ footer .social-icons {
     color: white;
 }
 
-footer .social-icons p {
-    background-color: #527188;
-
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 footer .social-icons p a i {
     font-size: 1.75rem;
-    color: white;
+    color: #527188;
 }
 
 .social-icons p a:hover {
@@ -583,6 +572,12 @@ footer .copyright {
         margin-top: 1.1rem;
     }
 
+    i.jsx {
+        text-transform: uppercase;
+        font-style: normal;
+        margin-bottom: .5rem;
+    }
+
     /* ------ABOUT--------*/
     #about h2 {
         font-size: 2rem;
@@ -602,15 +597,11 @@ footer .copyright {
 
     /* ------FOOTER--------*/
 
-    footer .social-icons p {
-        border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-    }
+
 
     footer .social-icons p a i {
         font-size: 1.5rem;
-        color: aliceblue;
+        
     }
 
     footer .half-width {
