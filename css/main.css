@@ -294,9 +294,11 @@ article i {
 }
 
 #tools p, #skills p {
+    width: 90%;
     font-size: 1rem;
     color: white;
     font-weight: 100;
+    text-align: center;
 }
 
 #tools h2 {
@@ -316,6 +318,10 @@ article i {
 
 i.fa-regular.fa-square {
     margin-top: .78rem;
+}
+
+i.jsx{
+    font-style: normal;
 }
 
 .code-tools {
