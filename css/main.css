@@ -3,95 +3,155 @@ html {
     font-size: 16px;
 }
 
+@-ms-viewport {
+    width: device-width;
+}
+
 body {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
     color: #2b2b2b;
-  }
+    background: white;
 
-  header{
-      margin: 0;
-  }
+}
 
-  h1, h2, h3, h4, p {
+
+
+header {
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
     font-family: 'Lato', sans-serif;
-  }
+}
+
+img {
+    width: 90%;
+}
+
+#about {
+    background-color: white;
+}
+
+.content-wrapper {
+    width: 90%;
+
+    margin: 0;
+}
 
 /* * * * * GRID * * * * */
 
-
-
-
-
- 
-
-/* * * * * HEADER * * * * */
-
-
-header{ 
-       
-    background: #8caac1;  
-    padding-top: 30px;  
-    margin-bottom: 30px;
-}
-
-h1{
-    font-size: 2em;
-    color: whitesmoke;
-    margin-right: 80px;
-    text-transform: uppercase;
-    font-weight: 300;
-    
-}
-
-nav{
-   width: 100%; 
+header,
+footer {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-   margin-bottom: 60px;
-    
+
 }
 
-header nav ul {
-    width: 100%;
-  display:flex;
-  justify-content: space-around;
+#gallery, #skills, #tools, #about {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
-nav ul li{
+
+/* -------------------------------------------
+            MOBIL SETTINGS
+----------------------------------------------
+
+/* * * * * HEADER * * * * */
+
+
+
+
+header {
+    background: #527188;
+    padding-bottom: 3.75rem;
+}
+
+h1 {
+
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.875rem;
+
+}
+
+
+nav {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+    margin-bottom: 3.75rem;
+
+}
+
+
+header nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+nav ul li {
     display: inline-block;
 }
 
-nav ul li a{
-    display:flex;
+nav ul li a {
+    display: flex;
     justify-content: space-around;
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: .9rem;
     font-weight: 300;
     text-decoration: none;
-    color:#363633 ;
+    color: white;
+    padding: .625rem;
 }
+
+
 
 nav #contact-link {
     background-color: white;
-    padding: 10px;
-    border-radius: 30px;
+    padding: .625rem;
+    border-radius: 1.875rem;
+    color: black;
 }
 
-header h2{
-    font-size: 4em;
-    
+
+
+
+header h2 {
+    font-size: 2.15rem;
+    width: 100%;
     display: flex;
-    justify-content: left;
-    
-    clear: both;
-    text-transform: lowercase;
+    justify-content: center;
     font-weight: lighter;
-    padding-bottom: 30px;
-    margin-left:15px ;
+    color: white;
+    margin-top: 3.75rem;
+    margin-bottom: .75rem;
+
+
 }
 
+header p {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 200;
+    line-height: 1.5rem;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: .05rem;
+
+}
 
 /***** GALLERY *****/
 
@@ -99,240 +159,597 @@ header h2{
 
 #gallery {
     background: white;
-    margin: 80px 0 60px 0;
-    
-    
-       
+    padding-top: 3.5rem;
+
 }
 
 #gallery .full-width {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 300;
-   
+
 }
 
-#gallery .fifth-width{
-    width: 100%;
+#gallery .fifth-width {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     flex-flow: column;
-    
+
 }
+
 #gallery img {
     margin: 5px;
-    width: 75%;
-    
-    }
+}
 
 #gallery .fifth-width p {
-    font-size: 1.25em;
-    width: 50%;
-    margin: 10px auto;
-    text-align: start;
+    font-size: 1rem;
+    width: 95%;
+    text-align: left;
 }
 
 
-#gallery h2, #skills h2{
-    
+#gallery h2, #skills h2 {
+
     font-weight: 300;
-    color:black;
-    font-size: 2em;
+    color: black;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
 
-    
+
 }
+
 #gallery span {
     font-weight: 400;
 }
+
 #gallery h3 {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
-        
+
 figure {
     filter: drop-shadow(1px 2px 6px lightgrey);
-   }
-
-
-/**** SKILS ****/
-
-#skills{
-    background: #8caac1;
-    padding: 60px 0 80px 0;
 }
 
-#skills h2{
+.class-project {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
     color: white;
-    margin-bottom: 40px;
-}
-
-
-.code-skills {
-    
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.code-skills article {
+    background-color: #527188;
+    padding: .625rem;
+    border-radius: 1.875rem;
+    margin: 1.5rem 0 2.5rem 0;
     width: 30%;
-    padding: 60px 0 30px 0;
-  }
-  article {
-      display: flex;
-      justify-content: center;
-  }
-article i {
-	font-size: 3.75em;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+}
+
+.class-project:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.class-project:visited {
+    color: white;
+}
+
+/**** SKILLS & TOOLS ****/
+
+#skills, #tools {
+    background: #527188;
+
+}
+
+#skills {
+    padding-bottom: 6rem;
+}
+
+#skills h2 {
+    color: white;
+    padding-top: 2.5rem;
+
 }
 
 
-/* * * * * ABOUT * * * * */
-#about .full-width {
-    display: flex;
-    justify-content: start;
-    flex-flow: row wrap;
-    margin: 80px 0;
-   
-}
+.code-skills, .code-tools {
 
-#about .half-width {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-}
-
-
-
-#about {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
+.code-skills article, .code-tools article {
+    width: 40%;
+    padding: 3.75rem 0 1.875rem 0;
+    display: flex;
+    flex-flow: column;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+article i {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#tools {
+    margin-top: 6rem;
+}
+
+#tools p, #skills p {
+    width: 90%;
+    font-size: 1rem;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+#tools h2 {
+    margin-top: 5rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+
+}
+
+#tools .photoshop {
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+}
+
+i.fa-regular.fa-square {
+    margin-top: .78rem;
+}
+
+i.jsx{
+    font-style: normal;
+}
+
+.code-tools {
+    padding-bottom: 5rem;
+}
+
+/* * * * * ABOUT * * * * */
+#about .full-width, #gallery .full-width {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 3.5rem 0;
+
+
+}
+
+#about .full-width {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#about h4, #about p {
+    line-height: 1.5rem;
+}
+
+
+
+
 #about h2 {
-    font-size: 36px;
-    padding-left: 50px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
     width: 100%;
-    
+
+
 }
 
 #about p {
-    font-size: 21px;
-    color: #7f7f7f;
-    line-height: 40px;
-    padding-right: 50px;
-    width: 50%;
+    font-size: 1.15rem;
 
-    
+    margin-bottom: 3.75rem;
+
+}
+
+#about .last-par {
+    color: black;
+    margin: 0;
 }
 
 #about h4 {
-    font-size: 1.5em;
+    font-size: 1.25rem;
     font-weight: 400;
-    padding-right: 50px;
+
+    margin-bottom: 2.5rem;
 }
 
 #about img {
-    max-height: 400px;
+    width: 75%;
+    max-height: 31.25rem;
+    max-width: fit-content;
     border: solid #a1a0a0;
+    margin-bottom: 2.5rem;
 
-   
-} 
+
+}
+
 /******* FOOTER *********/
 
 #contact-info {
-    border-top: 15px solid #8caac1;
+    border-top: .9375rem solid #527188;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 90%;
-   }
-   
-footer .half-width{
+
+}
+
+footer .full-width {
+    width: 100%;
+}
+
+footer .half-width {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+footer p {
+    margin: 0;
+}
+
+#contact-info h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 3.75rem 0
+}
+
+.social {
     width: 50%;
+}
+
+.social h4, .contact h4, .meet-up h4 {
+    margin: 3.75rem 0 1.875rem 0;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact p, .meet-up p, .social p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+address, .meet-up {
+    text-align: center;
+}
+
+address p {
+    font-style: normal;
+
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+footer .social-icons p a i {
+    font-size: 1.75rem;
+    color: #527188;
+}
+
+.social-icons p a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+footer .copyright {
+    font-size: 1rem;
+    width: 100%;
+    margin: 3.75rem 0;
     display: flex;
     justify-content: center;
 
 }
-   footer p {
-    margin: 0;
-  }
 
-   #contact-info h3{
-       width: 100%;
-       font-size: 2em;
-       display: flex;
-       justify-content: center;
-       margin: 160px 0 80px 0
-   }
-   
-   .social {
-       width: 50%;
-   }
-   .social h4 {
-       display: flex;
-       justify-content: center;
-   }
- 
-   address h4{
-       display: flex;
-       justify-content: center;
-       font-family: 'Lato', sans-serif;
-       font-style: normal;
+/* -------------------------------------------
+            END OF MOBIL SETTINGS
+----------------------------------------------
 
-       
-   }
-   
-   footer .social-icons {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     color: white;
-   }
-   
-   footer .social-icons p {
-     background-color: #8caac1;
-     
-     border-radius: 50%;
-     width: 40px;
-     height: 40px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   
-   
-   footer .social-icons p a i {
-     font-size: 1.3125em;
-     color: aliceblue;
-   }
-   
-   .social-icons p a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
+/* ------------ MEDIA QUARIES -------------- */
+
+
+@media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+
+    .content-wrapper {
+        max-width: 62.5rem;
+    }
+
+    /* * * HEADER * * */
+    header {
+        padding-top: 3.75rem;
+        padding-bottom: 5rem;
+    }
+
+    nav {
+        margin-bottom: 5rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+
+    }
+
+    header h2 {
+        font-size: 2.75rem;
+        margin-top: 5rem;
+
+    }
+
+    header p {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+
+
+
+    /* * * Gallery * * */
+
+    #gallery h2 {
+        font-size: 2.5rem;
+    }
+
+    #gallery h3 {
+        font-size: 1.25rem;
+    }
+
+    #gallery .fifth-width {
+        width: 50%;
+    }
+
+    #gallery .fifth-width p {
+        font-size: 1rem;
+    }
+
+    #gallery .full-width {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-flow: row wrap;
+    }
+
+
+
+    #gallery img {
+        width: 70%;
+    }
+
+    #gallery a {
+        font-size: 1rem;
+    }
+
+    /* ----------Skills-----------*/
+    #skills h2, #tools h2 {
+        font-size: 2rem;
+    }
+
+    article i {
+        font-size: 4rem;
+    }
+
+
+
+    i.fa-regular.fa-square {
+        margin-top: 1.1rem;
+    }
+
+    i.jsx {
+        text-transform: uppercase;
+        font-style: normal;
+        margin-bottom: .5rem;
+    }
+
+    /* ------ABOUT--------*/
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #about h4 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #about p {
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+    }
+
+
+
+    /* ------FOOTER--------*/
+
+
+
+    footer .social-icons p a i {
+        font-size: 1.5rem;
+        
+    }
+
+    footer .half-width {
+        width: 30%;
+    }
+
 }
-   
-   footer .copyright {
-     width: 100%;
-     margin: 40px 0 140px 0;
-     display: flex;
-     justify-content: center;
 
-   }
 
+@media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+
+    .content-wrapper {
+        max-width: 87.5rem;
+    }
+
+    /***** HEADER **********/
+    header {
+        padding-top: 5rem;
+        padding-bottom: 8.75rem;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 2.5rem;
+    }
+
+
+    header nav ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        display: flex;
+        justify-content: space-around;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+    }
+
+    nav ul li a:hover, nav #contact-link:hover {
+        opacity: 0.6;
+        transition: 0.3s;
+        border-radius: 1.875rem;
+        background-color: black;
+
+    }
+
+    nav #contact-link:hover {
+        color: white;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header h2 {
+        font-size: 3.35rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+
+
+    #gallery .fifth-width {
+        width: 30%;
+
+        display: flex;
+    }
+
+    #gallery h2 {
+        font-size: 2.75rem;
+        margin-bottom: 5rem;
+    }
+
+    #gallery h3 {
+        font-size: 1.5rem;
+    }
+
+    #gallery .fifth-width img {
+        width: 100%;
+    }
+
+
+
+    .code-skills article {
+        width: 30%;
+    }
+
+
+    #skills h2, #tools h2 {
+        font-size: 2.5rem;
+    }
+
+
+
+    /* ------ABOUT--------*/
+
+
+    #about h2 {
+        font-size: 3rem;
+    }
+
+    #about h4 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #about p {
+        font-size: 1.25rem;
+    }
+
+    /* ------FOOTER--------*/
+
+    #contact-info h3 {
+        font-size: 2.5rem;
+    }
+
+
+    .contact, .social, .meet-up {
+        align-items: flex-start;
+    }
+
+
+    footer .half-width {
+        width: 30%;
+
+    }
+
+}

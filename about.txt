@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Assistant
+- Font Author: Copyright 2020 The Assistant Project Authors (https://github.com/hafontia/Assistant). Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro), with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+- Font Source: http://fonts.gstatic.com/s/assistant/v18/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
